@@ -1,0 +1,92 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   background:#885743 ;
+}
+h1{ background: white;
+  font-family: cursive;
+  color: red;
+  text-align: center;
+  font-size: 30PX;
+
+}
+h1:hover{ background: black;
+
+}
+
+p{font-family: fantasy;
+   color: rgb(3, 2, 17);
+   font-size: 25px;
+   text-align: center;
+
+}
+/*ESTILOS GENERALES*/
+
+nav ul{
+   list-style: none;
+   padding: 0;
+}
+nav li {
+   line-height: 3rem;
+   position: relative;
+
+}
+.menu ul{
+   position: absolute;
+
+}
+nav a{
+   color: #ddd;
+   display: block;
+   padding: 0 2.5em;
+   text-decoration: none;
+   transition: .4s;
+}
+nav a:hover{
+   background: rgba(#13455);
+}
+footer{
+   background-color:red;
+   color: white;
+    font-size: 20px;
+   text-align: center;
+   font-family:fantasy;
+}
+figcaption{
+   color: red;
+   font-family: cursive;
+   font-size: 25px;
+}
+/*PRIMER NIVEL*/
+.menu{
+   background: #333;
+   display: table;
+   width: 100%;
+}
+.menu > li{
+float: left;
+}
+/*SEGUNDO NIVEL*/
+nav li li {
+   background: #222;
+   max-height: 0;
+   transition: all .5s;
+   overflow: hidden;
+   width: 130%;
+}
+nav li:hover >ul > li{
+   max-height: 500%;
+   overflow: visible;
+}
+.menu li > ul{
+top: 100%;
+}
+h4{
+
+  font-family: cursive;
+  color: black;
+  text-align: ;
+  font-size: 15PX;
+
+}
